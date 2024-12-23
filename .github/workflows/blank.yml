@@ -24,7 +24,7 @@ jobs:
       - name: Print greeting
         run: echo Hello, world!
 
-      # Runs a set of commands using the runners shell
+      # Runs commands SHELL, Multiple commands use '|'
       - name: Print goodbye
         run: |
           echo Nothing to do here,
